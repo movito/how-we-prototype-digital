@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "title": "Why & How We Prototype",
+    "subtitle": "Prototyping in digital service design serves many purposes — from exploring what a digital material can do, to testing whether an approach is viable, feasible, and desirable. Each prototype carries a different mix of these intentions.",
+    "note": "Click or hover on nodes to explore connections. Drag nodes to reposition. Press D to dump positions to console, S to export SVG, P to export PNG."
+  },
+  "sources": {
+    "Houde & Hill, 1997": {
+      "title": "What Do Prototypes Prototype?",
+      "url": "https://hci.stanford.edu/publications/bychapter/shortpapers/6-houde.pdf"
+    },
+    "Buxton, 2007": {
+      "title": "Sketching User Experiences: Getting the Design Right and the Right Design",
+      "url": "https://www.worldcat.org/title/sketching-user-experiences/oclc/141381769"
+    },
+    "Lim et al., 2008": {
+      "title": "The Anatomy of Prototypes",
+      "url": "https://doi.org/10.1145/1551788.1551806"
+    },
+    "Brown, 2009": {
+      "title": "Change by Design",
+      "url": "https://www.worldcat.org/title/change-by-design/oclc/310400227"
+    },
+    "Zimmerman et al., 2007": {
+      "title": "Research Through Design as a Method for Interaction Design Research in HCI",
+      "url": "https://doi.org/10.1145/1240624.1240704"
+    },
+    "Vallgårda & Redström, 2007": {
+      "title": "Computational Composites",
+      "url": "https://doi.org/10.1145/1314161.1314215"
+    },
+    "Wiberg, 2014": {
+      "title": "Interaction Design and the Concept of 'Material'",
+      "url": "https://www.researchgate.net/publication/289722682"
+    },
+    "Redström, 2017": {
+      "title": "Making Design Theory",
+      "url": "https://mitpress.mit.edu/9780262036658/making-design-theory/"
+    },
+    "Buchenau & Suri, 2000": {
+      "title": "Experience Prototyping",
+      "url": "https://doi.org/10.1145/347642.347802"
+    },
+    "Dunne & Raby, 2013": {
+      "title": "Speculative Everything",
+      "url": "https://www.worldcat.org/title/speculative-everything/oclc/858976258"
+    },
+    "Ries, 2011": {
+      "title": "The Lean Startup",
+      "url": "https://www.worldcat.org/title/lean-startup/oclc/712038496"
+    },
+    "Knapp et al., 2016": {
+      "title": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days",
+      "url": "https://www.worldcat.org/title/sprint/oclc/908083430"
+    },
+    "Snyder, 2003": {
+      "title": "Paper Prototyping",
+      "url": "https://www.worldcat.org/title/paper-prototyping/oclc/51983258"
+    },
+    "Blomkvist, 2014": {
+      "title": "Prototyping Services",
+      "url": "https://www.researchgate.net/publication/262951"
+    },
+    "Löwgren, 2016": {
+      "title": "Programming as Design Practice",
+      "url": "https://doi.org/10.1145/2851581.2892576"
+    },
+    "Koskinen et al., 2011": {
+      "title": "Constructive Design Research",
+      "url": "https://www.worldcat.org/title/constructive-design-research/oclc/794365892"
+    },
+    "Sterling, 2009": {
+      "title": "Design Fiction: A Short Essay on Design, Science, Fact and Fiction",
+      "url": "https://blog.nearfuturelaboratory.com/2009/03/17/design-fiction-a-short-essay-on-design-science-fact-and-fiction/"
+    },
+    "Stickdorn et al., 2018": {
+      "title": "This is Service Design Doing",
+      "url": "https://www.worldcat.org/title/this-is-service-design-doing/oclc/1004773741"
+    },
+    "Savoia, 2011": {
+      "title": "Pretotype It",
+      "url": "https://www.pretotyping.org/pretotype-it"
+    },
+    "Rettig, 1994": {
+      "title": "Prototyping for Tiny Fingers",
+      "url": "https://doi.org/10.1145/175276.175288"
+    }
+  },
+  "clusters": {
+    "center": {
+      "label": "",
+      "color": "#1a1a2e"
+    },
+    "dimensions": {
+      "label": "Design Dimensions",
+      "color": "#4a6fa5"
+    },
+    "inquiry": {
+      "label": "Prototyping as Inquiry",
+      "color": "#7b5ea7"
+    },
+    "materials": {
+      "label": "Digital Materiality",
+      "color": "#2d6a4f"
+    },
+    "methods": {
+      "label": "Approaches & Techniques",
+      "color": "#b5651d"
+    },
+    "fidelity": {
+      "label": "Fidelity & Resolution",
+      "color": "#8b4049"
+    }
+  },
+  "nodes": [
+    {
+      "id": "prototyping",
+      "label": "Why & How\nWe Prototype",
+      "x": 500,
+      "y": 400,
+      "cluster": "center",
+      "description": "The central question. Every prototype is made for a reason — to explore, to evaluate, to communicate, to provoke. The mix of purposes shapes what you build and how you build it. A prototype is not a miniature product; it is an instrument of inquiry (Lim et al., 2008).",
+      "size": "large"
+    },
+    {
+      "id": "desirability",
+      "label": "Desirability",
+      "x": 240,
+      "y": 120,
+      "cluster": "dimensions",
+      "description": "Does anyone want this? Prototyping for desirability means putting something in front of people to see whether it resonates — whether it solves a real problem, fits into their lives, or sparks genuine interest (Brown, 2009).",
+      "size": "default"
+    },
+    {
+      "id": "feasibility",
+      "label": "Feasibility",
+      "x": 500,
+      "y": 120,
+      "cluster": "dimensions",
+      "description": "Can we build this? Feasibility prototypes test whether an approach is technically achievable — whether the technology works, the data is available, and the system can perform as imagined (Houde & Hill, 1997).",
+      "size": "default"
+    },
+    {
+      "id": "viability",
+      "label": "Viability",
+      "x": 760,
+      "y": 120,
+      "cluster": "dimensions",
+      "description": "Should we build this? Viability prototypes test whether an idea makes sense as a business or organizational proposition — whether it can be sustained, funded, and delivered at scale (Ries, 2011; Brown, 2009).",
+      "size": "default"
+    },
+    {
+      "id": "exploration",
+      "label": "Exploration",
+      "x": 160,
+      "y": 310,
+      "cluster": "inquiry",
+      "description": "Explorative prototyping opens up the design space. You build to discover what questions to ask, not to answer ones you already have. Sketches are the quintessential explorative tool — they suggest and provoke rather than describe and specify (Buxton, 2007).",
+      "size": "default"
+    },
+    {
+      "id": "evaluation",
+      "label": "Evaluation",
+      "x": 160,
+      "y": 470,
+      "cluster": "inquiry",
+      "description": "Evaluative prototyping narrows the design space. You build to test a specific hypothesis or compare alternatives. The prototype becomes an instrument for gathering evidence — from usability tests to A/B experiments (Knapp et al., 2016).",
+      "size": "default"
+    },
+    {
+      "id": "research_through_design",
+      "label": "Research\nThrough Design",
+      "x": 270,
+      "y": 390,
+      "cluster": "inquiry",
+      "description": "Prototyping as a way of producing knowledge, not just products. Making things is itself a research method — the artifact embodies knowledge that cannot be expressed in words alone (Zimmerman et al., 2007; Koskinen et al., 2011).",
+      "size": "default"
+    },
+    {
+      "id": "speculation",
+      "label": "Speculative\nPrototyping",
+      "x": 130,
+      "y": 600,
+      "cluster": "inquiry",
+      "description": "Prototypes that provoke rather than solve. Speculative and critical design uses artifacts to ask 'what if?' — imagining alternative futures and surfacing hidden assumptions about technology and society (Dunne & Raby, 2013; Sterling, 2009).",
+      "size": "small"
+    },
+    {
+      "id": "filtering",
+      "label": "Filtering\nDimensions",
+      "x": 320,
+      "y": 540,
+      "cluster": "inquiry",
+      "description": "Every prototype selectively manifests some qualities while leaving others unresolved. Choosing what to include and exclude is a design decision — the 'anatomy' of a prototype determines what you can learn from it (Lim et al., 2008).",
+      "size": "small"
+    },
+    {
+      "id": "digital_material",
+      "label": "Digital\nMaterial",
+      "x": 830,
+      "y": 310,
+      "cluster": "materials",
+      "description": "Code, data, APIs, and connectivity are design materials with their own properties and affordances. Prototyping with digital materials means exploring what computation can do — not just implementing a predetermined idea (Vallgårda & Redström, 2007; Wiberg, 2014).",
+      "size": "default"
+    },
+    {
+      "id": "code_as_practice",
+      "label": "Code as\nDesign Practice",
+      "x": 900,
+      "y": 460,
+      "cluster": "materials",
+      "description": "When designers write code, they are not merely implementing — they are designing. Programming becomes a way of thinking through material possibilities, discovering what the technology affords (Löwgren, 2016).",
+      "size": "small"
+    },
+    {
+      "id": "computational_composites",
+      "label": "Computational\nComposites",
+      "x": 870,
+      "y": 600,
+      "cluster": "materials",
+      "description": "Digital artifacts are composites of physical form and computational behavior. Prototyping these composites requires working across hardware, software, and interaction — giving form to things that change over time (Vallgårda & Redström, 2007).",
+      "size": "small"
+    },
+    {
+      "id": "paper_prototype",
+      "label": "Paper\nPrototype",
+      "x": 350,
+      "y": 720,
+      "cluster": "methods",
+      "description": "The simplest and fastest way to test an interaction concept. Paper prototypes are disposable, inviting, and accessible to non-designers. Their low fidelity is a feature: it keeps attention on structure and flow rather than visual polish (Snyder, 2003; Rettig, 1994).",
+      "size": "default"
+    },
+    {
+      "id": "wizard_of_oz",
+      "label": "Wizard\nof Oz",
+      "x": 500,
+      "y": 750,
+      "cluster": "methods",
+      "description": "A human secretly performs the system's role. Wizard of Oz prototypes let you test complex behavior — AI responses, voice interfaces, adaptive systems — before building any of it. They decouple desirability testing from technical implementation.",
+      "size": "small"
+    },
+    {
+      "id": "experience_prototype",
+      "label": "Experience\nPrototype",
+      "x": 650,
+      "y": 720,
+      "cluster": "methods",
+      "description": "Prototyping the subjective experience of using a service or product, not just the interface. Uses bodystorming, role-play, and staged scenarios to make the future experience tangible and testable (Buchenau & Suri, 2000).",
+      "size": "default"
+    },
+    {
+      "id": "service_prototype",
+      "label": "Service\nPrototype",
+      "x": 800,
+      "y": 750,
+      "cluster": "methods",
+      "description": "Prototyping a service means staging the whole journey — touchpoints, backstage processes, human interactions over time. From desktop walkthroughs to live pilots, service prototypes capture temporal and relational qualities that product prototypes miss (Blomkvist, 2014; Stickdorn et al., 2018).",
+      "size": "default"
+    },
+    {
+      "id": "mvp",
+      "label": "Minimum\nViable Product",
+      "x": 200,
+      "y": 740,
+      "cluster": "methods",
+      "description": "The smallest thing you can release to learn whether the market wants it. MVPs test viability through real-world exposure, but risk conflating a prototype (a learning instrument) with a product (a value proposition) (Ries, 2011; Savoia, 2011).",
+      "size": "small"
+    },
+    {
+      "id": "sprint",
+      "label": "Design\nSprint",
+      "x": 500,
+      "y": 620,
+      "cluster": "methods",
+      "description": "A structured five-day process: understand, sketch, decide, prototype, test. The Sprint method compresses the exploration-to-evaluation cycle into one week, forcing 'just enough' prototype fidelity to learn from users (Knapp et al., 2016).",
+      "size": "small"
+    },
+    {
+      "id": "low_fidelity",
+      "label": "Low\nFidelity",
+      "x": 600,
+      "y": 250,
+      "cluster": "fidelity",
+      "description": "Quick, rough, disposable. Low-fidelity prototypes invite critique and iteration. Their incompleteness is deliberate — it signals that everything is open to change and encourages participants to focus on concept rather than detail (Buxton, 2007).",
+      "size": "default"
+    },
+    {
+      "id": "high_fidelity",
+      "label": "High\nFidelity",
+      "x": 700,
+      "y": 400,
+      "cluster": "fidelity",
+      "description": "Detailed, polished, close to final. High-fidelity prototypes answer questions about specific interactions, visual design, and technical behavior. But they risk anchoring the team on a particular solution too early (Houde & Hill, 1997).",
+      "size": "default"
+    },
+    {
+      "id": "role_look_impl",
+      "label": "Role / Look\n& Feel / Impl.",
+      "x": 650,
+      "y": 530,
+      "cluster": "fidelity",
+      "description": "Houde and Hill's framework: prototypes explore 'role' (what it does for the user), 'look and feel' (sensory experience), or 'implementation' (how it works technically). No single prototype covers all three — choosing which to foreground is a strategic decision (Houde & Hill, 1997).",
+      "size": "small"
+    }
+  ],
+  "edges": [
+    { "from": "prototyping", "to": "desirability", "label": "tests" },
+    { "from": "prototyping", "to": "feasibility", "label": "tests" },
+    { "from": "prototyping", "to": "viability", "label": "tests" },
+    { "from": "prototyping", "to": "exploration", "label": "opens up\nquestions" },
+    { "from": "prototyping", "to": "evaluation", "label": "narrows\ndown" },
+    { "from": "prototyping", "to": "digital_material", "label": "explores" },
+    { "from": "prototyping", "to": "low_fidelity", "label": "ranges\nacross" },
+    { "from": "exploration", "to": "evaluation", "label": "tension", "style": "dashed" },
+    { "from": "exploration", "to": "research_through_design", "label": "produces\nknowledge" },
+    { "from": "exploration", "to": "speculation", "label": "extends to" },
+    { "from": "evaluation", "to": "filtering", "label": "requires\nselection" },
+    { "from": "digital_material", "to": "code_as_practice", "label": "worked\nthrough" },
+    { "from": "digital_material", "to": "computational_composites", "label": "manifests as" },
+    { "from": "low_fidelity", "to": "high_fidelity", "label": "fidelity\nspectrum", "style": "dashed" },
+    { "from": "low_fidelity", "to": "paper_prototype", "label": "includes" },
+    { "from": "high_fidelity", "to": "role_look_impl", "label": "foregrounds\ndimensions" },
+    { "from": "paper_prototype", "to": "wizard_of_oz", "label": "adds\nbehavior" },
+    { "from": "experience_prototype", "to": "service_prototype", "label": "extends to\nservices" },
+    { "from": "desirability", "to": "experience_prototype", "label": "tested\nthrough", "style": "dotted" },
+    { "from": "viability", "to": "mvp", "label": "tested\nthrough", "style": "dotted" },
+    { "from": "feasibility", "to": "code_as_practice", "label": "tested\nthrough", "style": "dotted" },
+    { "from": "sprint", "to": "evaluation", "label": "structured\nprocess" },
+    { "from": "filtering", "to": "role_look_impl", "label": "operationalized\nby" },
+    { "from": "research_through_design", "to": "digital_material", "label": "through\nmaterial", "style": "dashed" }
+  ]
+}
